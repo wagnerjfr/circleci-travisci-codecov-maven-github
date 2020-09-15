@@ -35,15 +35,15 @@ plus add code coverage using [CodeCov](https://codecov.io/) and [Jacoco](https:/
 
 - "Log In with GitHub"
 
-<image>
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/circleci/1.png)
 
-- "Projects" and "Set up repository"
+- Go to "Projects" and then "Set up repository"
 
-<image>
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/circleci/2.png)
 
-- Since the repository already has the config file in `.circleci/config.yml` click in `Using Existing Config` button.
+- Since the repository already has the config file in `.circleci/config.yml` click in "Using Existing Config" button.
 
-<image>
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/circleci/3.png)
 
 ### Travis CI
 
@@ -51,25 +51,25 @@ plus add code coverage using [CodeCov](https://codecov.io/) and [Jacoco](https:/
 
 - Sign in with GitHub
 
-<image>
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/tarvisci/1.png)
  
 - Add/Enable the repository.
 
-<image>
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/tarvisci/2.png)
 
-- Click on the repository enabled, on the right, "More options" -> "Trigger build"
+- Click on the repository enabled, on the right, "More options" → "Trigger build"
 
-<image>
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/tarvisci/3.png)
 
 - Click on "Trigger custom build" button.
 
-<image>
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/tarvisci/4.png)
 
 - The process will build the project, run the unit tests and use Jacoco to send the code coverage results to CodeCoc in the end.
 
-<image>
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/tarvisci/5.png)
 
-<image> 
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/tarvisci/6.png)
 
 ### CodeCov
 
@@ -77,13 +77,13 @@ plus add code coverage using [CodeCov](https://codecov.io/) and [Jacoco](https:/
 
 - Sign up with GitHub
 
-<image>
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/codecov/1.png)
  
 - If the repository doesn't show up automatically, you need either to add or activate it.
 
-<image>
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/codecov/2.png)
 
-<image>
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/codecov/3.png)
 
 ### GitHub
 
