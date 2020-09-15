@@ -2,7 +2,7 @@
 
 [![CI](https://circleci.com/gh/wagnerjfr/circleci-travisci-codecov-maven-github.svg?style=shield)](https://circleci.com/gh/wagnerjfr/circleci-travisci-codecov-maven-github)
 
-[![codecov](https://codecov.io/gh/wagnerjfr/circleci-travisci-codecov-maven-github/branch/master/graph/badge.svg?token=D3IQCDGQHS)](https://codecov.io/gh/wagnerjfr/circleci-travisci-codecov-maven-github)
+[![codecov](https://codecov.io/gh/wagnerjfr/circleci-travisci-codecov-maven-github/branch/master/graph/badge.svg)](https://codecov.io/gh/wagnerjfr/circleci-travisci-codecov-maven-github)
 
 # circleci-travisci-codecov-maven-github
 This is a very simple Maven project that shows how to configure Continuous Integration (CI) using [Travis CI](https://travis-ci.org/) and [Circle CI](https://circleci.com/),
