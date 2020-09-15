@@ -51,25 +51,25 @@ plus add code coverage using [CodeCov](https://codecov.io/) and [Jacoco](https:/
 
 - Sign in with GitHub
 
-![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/initial-import/resources/tarvisci/1.png)
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/initial-import/resources/travisci/1.png)
  
 - Add/Enable the repository.
 
-![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/initial-import/resources/tarvisci/2.png)
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/initial-import/resources/travisci/2.png)
 
 - Click on the repository enabled, on the right, "More options" → "Trigger build"
 
-![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/initial-import/resources/tarvisci/3.png)
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/initial-import/resources/travisci/3.png)
 
 - Click on "Trigger custom build" button.
 
-![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/initial-import/resources/tarvisci/4.png)
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/initial-import/resources/travisci/4.png)
 
 - The process will build the project, run the unit tests and use Jacoco to send the code coverage results to CodeCoc in the end.
 
-<!--![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/initial-import/resources/tarvisci/5.png)
+<!--![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/initial-import/resources/travisci/5.png)
 
-![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/initial-import/resources/tarvisci/6.png)-->
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/initial-import/resources/travisci/6.png)-->
 
 ### CodeCov
 
