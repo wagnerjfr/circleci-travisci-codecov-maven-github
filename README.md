@@ -2,7 +2,7 @@
 
 [![CI](https://circleci.com/gh/wagnerjfr/circleci-travisci-codecov-maven-github.svg?style=shield)](https://circleci.com/gh/wagnerjfr/circleci-travisci-codecov-maven-github)
 
-[![codecov](https://codecov.io/gh/wagnerjfr/circleci-travisci-codecov-maven-github/branch/master/graph/badge.svg)](https://codecov.io/gh/wagnerjfr/circleci-travisci-codecov-maven-github)
+[![codecov](https://codecov.io/gh/wagnerjfr/circleci-travisci-codecov-maven-github/branch/master/graph/badge.svg?token=8HT4ZAUADG)](https://codecov.io/gh/wagnerjfr/circleci-travisci-codecov-maven-github)
 
 # circleci-travisci-codecov-maven-github
 This is a very simple Maven project that shows how to configure Continuous Integration (CI) using [Travis CI](https://travis-ci.org/) and [Circle CI](https://circleci.com/),
@@ -67,9 +67,9 @@ plus add code coverage using [CodeCov](https://codecov.io/) and [Jacoco](https:/
 
 - The process will build the project, run the unit tests and use Jacoco to send the code coverage results to CodeCoc in the end.
 
-<!--![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/travisci/5.png)
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/travisci/5.png)
 
-![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/travisci/6.png)-->
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/travisci/6.png)
 
 ### CodeCov
 
@@ -83,17 +83,24 @@ plus add code coverage using [CodeCov](https://codecov.io/) and [Jacoco](https:/
 
 ![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/codecov/2.png)
 
+OR
+
 ![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/codecov/3.png)
+
+- Get the Token which is required to be added later in the `README.md`.
+
+![alt text](https://github.com/wagnerjfr/circleci-travisci-codecov-maven-github/blob/master/resources/codecov/4.png)
 
 ### GitHub
 
-- Go the `README.md` file change the badge paths to use your GitHub's username. Replace `wagnerjfr` to your username. There are 6 places to change:
+- Go the `README.md` file change the badge paths to use your GitHub's username. Replace `wagnerjfr` to your username.
+There are 6 places to change `<your username here>`, plus the CodeCov TOKEN `<your token here>`:
 ```
 [![Build Status](https://travis-ci.org/<your username here>/circleci-travisci-codecov-maven-github.svg?branch=master)](https://travis-ci.org/<your username here>/circleci-travisci-codecov-maven-github)
 
 [![CI](https://circleci.com/gh/<your username here>/circleci-travisci-codecov-maven-github.svg?style=shield)](https://circleci.com/gh/<your username here>/circleci-travisci-codecov-maven-github)
 
-[![codecov](https://codecov.io/gh/<your username here>/circleci-travisci-codecov-maven-github/branch/master/graph/badge.svg)](https://codecov.io/gh/<your username here>/circleci-travisci-codecov-maven-github)
+[![codecov](https://codecov.io/gh/<your username here>/circleci-travisci-codecov-maven-github/branch/master/graph/badge.svg?token=<your token here>)](https://codecov.io/gh/<your username here>/circleci-travisci-codecov-maven-github)
 ``` 
 - Commit and push your changes. This is supposed to trigger the CI in Travis CI and Circle CI.
 
