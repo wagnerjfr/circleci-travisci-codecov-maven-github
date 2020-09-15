@@ -25,15 +25,69 @@ plus add code coverage using [CodeCov](https://codecov.io/) and [Jacoco](https:/
 
 ## Hands on steps
 
-1) **Fork** this repository.
+### Get the sample repository
 
-2) Go to [Circle CI](https://circleci.com/), sign in and add/enable the repository.
+- **Fork** this repository.
 
-3) Go to [Travis CI](https://travis-ci.org/), sign in and add/enable the repository.
+### Circle CI
 
-4) Go to [CodeCov](https://codecov.io/), sign in and add/enable the repository.
+- Go to [Circle CI](https://circleci.com/vcs-authorize/), 
 
-5) Go the `README.md` file change the bagde paths to use your GitHub's username. Replace `wagnerjfr` to your username. There are 6 places to change:
+- "Log In with GitHub"
+
+<image>
+
+- "Projects" and "Set up repository"
+
+<image>
+
+- Since the repository already has the config file in `.circleci/config.yml` click in `Using Existing Config` button.
+
+<image>
+
+### Travis CI
+
+- Go to [Travis CI](https://travis-ci.org/)
+
+- Sign in with GitHub
+
+<image>
+ 
+- Add/Enable the repository.
+
+<image>
+
+- Click on the repository enabled, on the right, "More options" -> "Trigger build"
+
+<image>
+
+- Click on "Trigger custom build" button.
+
+<image>
+
+- The process will build the project, run the unit tests and use Jacoco to send the code coverage results to CodeCoc in the end.
+
+<image>
+
+<image> 
+
+### CodeCov
+
+- Go to [CodeCov](https://codecov.io/)
+
+- Sign up with GitHub
+
+<image>
+ 
+- If the repository doesn't show up automatically, you need either to add or activate it.
+
+<image>
+
+<image>
+
+### GitHub
+
+- Go the `README.md` file change the badge paths to use your GitHub's username. Replace `wagnerjfr` to your username. There are 6 places to change:
 ```
 [![Build Status](https://travis-ci.org/<your username here>/circleci-travisci-codecov-maven-github.svg?branch=master)](https://travis-ci.org/<your username here>/circleci-travisci-codecov-maven-github)
 
@@ -41,6 +95,6 @@ plus add code coverage using [CodeCov](https://codecov.io/) and [Jacoco](https:/
 
 [![codecov](https://codecov.io/gh/<your username here>/circleci-travisci-codecov-maven-github/branch/master/graph/badge.svg)](https://codecov.io/gh/<your username here>/circleci-travisci-codecov-maven-github)
 ``` 
-6) Commit and push your changes. This is supposed to trigger the CI in Travis CI and Circle CI.
+- Commit and push your changes. This is supposed to trigger the CI in Travis CI and Circle CI.
 
-7) Check the CI logs and the code coverage
+- Check the CI logs and the code coverage
