@@ -1,7 +1,5 @@
 [![Build Status](https://travis-ci.org/wagnerjfr/circleci-travisci-codecov-maven-github.svg?branch=master)](https://travis-ci.org/wagnerjfr/circleci-travisci-codecov-maven-github)
-
 [![CI](https://circleci.com/gh/wagnerjfr/circleci-travisci-codecov-maven-github.svg?style=shield)](https://circleci.com/gh/wagnerjfr/circleci-travisci-codecov-maven-github)
-
 [![codecov](https://codecov.io/gh/wagnerjfr/circleci-travisci-codecov-maven-github/branch/master/graph/badge.svg?token=8HT4ZAUADG)](https://codecov.io/gh/wagnerjfr/circleci-travisci-codecov-maven-github)
 
 # circleci-travisci-codecov-maven-github
