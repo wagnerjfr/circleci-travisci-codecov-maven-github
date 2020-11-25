@@ -21,8 +21,6 @@ plus add code coverage using [CodeCov](https://codecov.io/) and [Jacoco](https:/
 
 - The tests were developed using [JUnit](https://junit.org/junit5/) testing framework.
 
-- If you want to know how to setup a private repository, let me know (:star2:) and I can create a repository explaining the steps.
-
 ## Hands on steps
 
 ### Get the sample repository
